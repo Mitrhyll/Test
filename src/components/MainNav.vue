@@ -10,6 +10,9 @@
                     <li class="nav-item">
                         <a href="register" class="nav-link">sign up</a>
                     </li>
+                    <li>
+                        <button @click.prevent="logout()" type="submit" class="btn btn-danger">Log out</button>
+                    </li>
                 </ul>
             </div>
         </div>
