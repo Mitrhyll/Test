@@ -12,6 +12,7 @@
                     </li>
                     <li>
                         <button @click.prevent="logout()" type="submit" class="btn btn-danger">Log out</button>
+                        <button @click="logout()">dsadsa</button>
                     </li>
                 </ul>
             </div>
